@@ -2,10 +2,8 @@ class Block{
     constructor(x, y, width, height) {
         var options = {
            
-            restitution :0.4,
+            restitution :0.3,
             friction :0.1,
-            density:0.1
-            //isStatic:true
            
         }
         this.visibility = 225;
